@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!--favicon-This is the icon on the tab-->
+
+    <link rel="shortcut icon" href="resources/images/paper-plane.png " type="image/x-icon">
+
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:63342/project1_emob/index.html?_ijt=7n05jebflvg7nmk0pf33d2j8eo&_ij_reload=RELOAD_ON_SAVE">Home</a></li>
+            <li><a href="http://localhost:63342/project1_emob/Contact.html?_ijt=fthv0o4u46eeeonvdn3ihte6vi&_ij_reload=RELOAD_ON_SAVE">Contact</a></li>
+            <li><a href="http://localhost:63342/project1_emob/Gallery.html?_ijt=7uq4srn76884mcv70aragf51nm&_ij_reload=RELOAD_ON_SAVE">Gallery</a></li>
+            <li><a href="http://localhost:63342/project1_emob/sign-up.html?_ijt=aa9t3kje2760a688g08buk9lr0&_ij_reload=RELOAD_ON_SAVE">Sign Up</a></li>
+            <li><a href="">Classes</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="main-container">
+    <div class="form">
+        <form action="">
+            <h1>Sign Up</h1>
+                <div class="form-group" id="fname">
+                    <label for="firstName"><i class="fa-solid fa-hand-back-fist"></i>First Name: </label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group" id="lname">
+                    <label for="lastName"><i class="fa-solid fa-user-plus"></i>Last Name: </label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+                </div>
+                <div class="form-group" id="email">
+                    <label for="email"><i class="fa-solid fa-envelope"></i>Email: </label>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group" id="password">
+                    <label for="password"><i class="fa-solid fa-lock"></i>Password: </label>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-group" id="confirm-password">
+                    <label for="confirm-password"><i class="fa-solid fa-lock"></i>Confirm Password: </label>
+                    <input type="password" name="confirm-password" placeholder="Confirm your password" required>
+
+                </div>
+            <div class="form-group" id="gender">
+                <label for="gender"><i class="fa-solid fa-venus-double"></i>Gender: </label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+
+            </div>
+            <div class="form-group" id="age">
+                <label><input type="radio" name="age" value="18+" >18+</label>
+
+                <label><input type="radio" name="age"value="25+"> 25+ </label>
+
+                <label> <input type="radio" name="age" value="35+">35+</label>
+
+
+            </div>
+            <div class="form-group">
+                <button class="cdnjs.cloudflare" type="button"><i class="fa-solid fa-user-plus"></i>Sign Up</button>
+                <button class="cdnjs.cloudflare" type="button"><i class="fa-solid fa-user-plus"></i>Cancel</button>
+            </div>
+        </form>
+
+    </div>
+
+
+
+<!--A table is her below-->
+
+    <div class="table">
+<h1>Already Registered Users</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ndinda</td>
+                <td>ndindamuendo2@email.com</td>
+                <td>female</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>paul</td>
+                <td>mulatyapaul42@email.com</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Muuo</td>
+                <td>muuomuendo2@email.com</td>
+                <td>Male</td>
+                <td>17</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
